@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RANOSYSTEM</string>
+    <string name="button_login">Button Login</string>
+    <string name="button_sign_up">Button Sign Up</string>
+</resources>
