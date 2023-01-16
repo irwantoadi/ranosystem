@@ -6,9 +6,20 @@
     android:layout_height="match_parent"
     android:background="@drawable/bg_white"
     tools:context=".WelcomeActivity">
-    <FrameLayout
+
+    <ImageView
+        android:id="@+id/title2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/bottom_and_right_img"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
@@ -18,6 +29,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
+            android:layout_marginRight="130dp"
             android:src="@drawable/up_left_img"
             android:adjustViewBounds="true"
             app:layout_constraintTop_toTopOf="parent"/>
@@ -26,17 +38,30 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/icon_app"
+                android:adjustViewBounds="true"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="50dp"
+                android:src="@drawable/selamat_datang"
+                android:adjustViewBounds="true"/>
             <ImageButton
                 android:id="@+id/btn_login"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="355dp"
                 android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
                 android:background="#00000000"
@@ -47,7 +72,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
-                android:layout_marginTop="30dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginRight="30dp"
                 android:adjustViewBounds="true"
                 android:scaleType="fitXY"
