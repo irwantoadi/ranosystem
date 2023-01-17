@@ -69,7 +69,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toBottomOf="@id/title">
             <ImageButton
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_pelatihan"
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"

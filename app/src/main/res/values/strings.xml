@@ -2,4 +2,16 @@
     <string name="app_name">RANOSYSTEM</string>
     <string name="button_login">Button Login</string>
     <string name="button_sign_up">Button Sign Up</string>
+    <string name="search">Search</string>
+    <string name="string_menu_1">Dasar Hukum</string>
+    <string name="string_menu_2">Daftar Difabel</string>
+    <string name="string_menu_3">TPS Difabel</string>
+    <string name="string_menu_4">Jadwal Difabel</string>
+    <string name="string_menu_5">Konsultasi</string>
+    <string name="string_menu_6">Saran</string>
+    <string name="please_enter_your_name">Please enter your name</string>
+    <string name="already_registered_login">Already Registered? Login</string>
+    <string name="please_enter_email">Please enter Email</string>
+    <string name="please_enter_password">Please enter Password</string>
+    <string name="tekan_satu_kali">Tekan satu kali lagi untuk keluar</string>
 </resources>
