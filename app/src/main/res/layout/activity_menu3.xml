@@ -7,6 +7,15 @@
     android:background="@drawable/bg_white"
     tools:context=".Menu3Activity">
 
+    <ImageView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/header_tps_difabel"
+        android:adjustViewBounds="true"
+        app:layout_constraintTop_toTopOf="parent"/>
+
     <Button
         android:id="@+id/btn_back"
         android:layout_width="50dp"
@@ -34,15 +43,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent">
 
-        <ImageView
-            android:id="@+id/title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
-            android:src="@drawable/header_tps_difabel"
-            android:adjustViewBounds="true"
-            app:layout_constraintTop_toTopOf="parent"/>
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,8 +60,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="50dp"
                 android:src="@drawable/btn2_kec"
-                android:background="#00000000"
-                android:adjustViewBounds="true"/>
+                android:background="#00000000" />
         </LinearLayout>
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
